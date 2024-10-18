@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Responsive Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class=" d-flex p-2 d-none d-lg-flex">
+            <div class="col-2 m-0 text-center p-1">
+                <img src="logo2.png" id="certn" alt="" style="width: 100px;height: auto;">
+            </div>
+            <div class="col-9 " style="color: black; text-align: start;">
+                <h5 class="p-0 m-0 fs-lg-6" style="font-weight: bolder;">CERTN Test Account 2</h5>
+                <h6 style="font-size: smaller; ">Last Logged in: September 23 </h6>
+            </div>
+            <div class="col-1">
+                <button class="btn btn-sm-info border border-dark p-1 mt-2"
+                    style="border-radius: 20px; font-size:xx-small; width: 100px;">LOG OUT</button>
+            </div>
+
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark  d-lg-none" style="background-color:#29405B ;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">CERTN ACCOUNT2</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="header">
+                        <div class="text-center"
+                            style="color: white; background-color: rgba(163 158 158 / 66%);width: 30px;border-top-right-radius: 20px; border-bottom-right-radius: 20px; margin-top: 35px;">
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column body-content">
+                        <div class="content p-2 pr-0"
+                            style="color: white;margin-left: 14px;font-size: x-small; padding: 10px; overflow-y: scroll">
+                            <p class="class-right-border" href="#"><i class="fa fa-home me-1"></i> Dashboard</p>
+                            <p class="class-right-border" href="#To Do Calendar">
+                                <i class="fa fa-chevron-right me-1"></i> Candidates
+                            </p>
+                            <p class="class-right-border" href="#Grade Book"><i class="fa fa-book me-1"></i>
+                                Certificates</li>
+                            </p>
+                            <p class="class-right-border" href="#Account Book"><i class="fa fa-file-invoice me-1"></i>
+                                Document</li>
+                            </p>
+                            <p class="class-right-border" href="#Progress"><i class="fa fa-bars me-1"></i> Job Board
+                                </li>
+                            </p>
+                            <p class="class-right-border" href="#Mail"><i class="fa fa-tag me-1"></i> Tags</li>
+                            </p>
+                            <p class="class-right-border" href="#Lecture Schedule"><i class="fa fa-comment me-1"></i>
+                                Messages</li>
+                            </p>
+                            <p class="class-right-border" href="#Notes"><i class="fa fa-handshake me-1"></i> Clients
+                                </li>
+                            </p>
+                            <p class="class-right-border" href="#My Study Scheme"><i class="fa fa-gear me-1"></i>
+                                Settings</li>
+                            </p>
+                            <p class="class-right-border" href="#Contact Us"><i class="fa fa-address-book me-1"></i>
+                                Support</li>
+                            </p>
+                            <div class="col-1">
+                                <button class="btn btn-sm-info border border-light p-1 mt-2 text-center"
+                                    style="border-radius: 20px; font-size:xx-small; width: 75vw; color: white ;">LOG
+                                    OUT</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="footer">
+                        <div class="d-flex align-items-center" style="color: white; margin-left: 30px;">
+                            <i class="fa-brands fa-ussunnah me-1"></i>
+                            <p class="mb-0" style=" font-size: xx-small;">Developed by <br>Resonant Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="body-content d-lg-flex d-xl-flex flex-row py-0  " style="background-color: #f0f0f0;">
+            <div class="d-none d-lg-block"
+                style="width: 34vw;background-color: #29405B;border-radius: 0px 70px 0px 0px; margin-top: 30px;">
+                <div class="sidebar wrapper ">
+                    <div class="header">
+                        <img src="logo4.png" alt=""
+                            style="width: 7vw;height: 16vh;border-radius: 50%; margin-top: 10px;margin-left: 0vw;">
+                        <h5 class="text-center"
+                            style="color: white; margin-top: 10px; font-size: 14px; font-weight: 700; letter-spacing: 1.5px;">
+                            CERTNI
+                            Tenant02</h5>
+                        <div class="text-center"
+                            style="color: white; background-color: rgba(163 158 158 / 66%);width: 30px;border-top-right-radius: 20px; border-bottom-right-radius: 20px; margin-top: 35px;">
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column body-content">
+                        <div class="content p-2 pe-1"
+                            style="color: white;margin-left: 14px;font-size: small; padding: 10px; overflow-y: scroll">
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-home me-1"></i> Dashboard
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0">
+                                <i class="fa fa-chevron-right me-1"></i> Candidates
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-book me-1"></i>
+                                Certificates</li>
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-file-invoice me-1"></i>
+                                Document</li>
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-bars me-1"></i> Job Board
+                                </li>
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-tag me-1"></i> Tags</li>
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-comment me-1"></i>
+                                Messages</li>
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-handshake me-1"></i> Clients
+                                </li>
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-gear me-1"></i>
+                                Settings</li>
+                            </p>
+                            <p class="class-right-border py-1" tabindex="0"><i class="fa fa-address-book me-1"></i>
+                                Support</li>
+                            </p>
+                            <div class="form-check form-switch d-flex py-2">
+                                <input class="form-check-input checkbox-UI border-" type="checkbox" checked>
+                                <label class="form-check-label text-NewUi fw-bold ms-3 mt-2">New UI</label>
+                                <label class="form-check-label text-Classic text-white fw-bold ms-3 mt-2">Classic
+                                    UI</label>
+                            </div>
+                            <!-- <div class="d-flex text-white w-75 ">
+                                <label class="switch">
+                                    <input style="width: -webkit-fill-available;" type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                                <div class="toggle-text">
+                                    <span class="ui-text" style="margin-left:10px;">New UI</span>
+                                    <span class="classic-text" style="margin-left:10px;">Classic UI</span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="d-flex align-items-center" style="color: white; margin-left: 30px;">
+                            <i class="fa-brands fa-ussunnah me-1"></i>
+                            <p class="mb-0" style=" font-size: xx-small;">Developed by <br>Resonant Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" row m-2 p-2 pb-3">
+                <div class="border col-11 col-sm-12 col-md-11 col-lg-4 col-xl-4 pe-0 m-3 pt-0 ps-0 responsive-height"
+                    style="height: 100%; box-shadow:1px 1px 9px #6c7476; border-radius:7px; background-color: white !important; border-radius: 10px; padding: 10px;">
+                    <div class="wrapper">
+                        <div class="header">
+                            <div class=" nav nav-tabs nav-fill">
+                                <button class="nav-item nav-link active  py-3" id="ALL" href="#" type="button">ALL</button>
+                                <button class="nav-item nav-link active py-3" id="FAVOURITES" type="button"
+                                    href="#">FAVOURITES</button>
+                                <button class="nav-item nav-link active py-3" id="REQUESTS" type="button" href="#">REQUESTS</button>
+                            </div>
+                            <div class="px-4">
+                                <div class="d-flex justify-content-between p-2">
+                                    <h5><b>All Candidates (8)</b></h5>
+                                    <button class="btn btn-sm "
+                                        style="background-color: #29405B; color: white; border-radius: 30px;">ADD NEW
+                                    </button>
+                                </div>
+                                <div class="text-div mb-2">Here you can take a quick or full look at all of your
+                                    candidates.
+                                    Click on a name to
+                                    view their profile.
+                                </div>
+                                <div class="input-div pt-3">
+                                    <input type="text" class="border  border-2 w-75 font-weight-700"
+                                        placeholder="Search All Candidates....">
+                                </div>
+
+                                <div class="dropdown pt-3 pb-3">
+                                    <span class=" d-flex justify-content-between align-items-baseline all-div pt-1"
+                                        type="" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        ALL
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </span>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">ALL</a></li>
+                                        <li><a class="dropdown-item" href="#">Available for Work</a></li>
+                                        <li><a class="dropdown-item" href="#">Recently Updated</a></li>
+                                        <li><a class="dropdown-item" href="#">New Candidates</a></li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="d-flex justify-content-between align-items-baseline all-div pt-1">
+                                    ALL
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <div class="body-content"
+                            style="color: black; margin-left: 14px; font-size: small; display: flex;">
+                            <!-- First UL: Scrollable -->
+                            <div style="flex-grow: 1;">
+                                <ul class="scrollable-ul ps-0" style="margin: 0; padding: 0;">
+                                    <li class="pt-1 pe-1 pb-1 ps-1">
+                                        <p style="font-weight: bold;font-size: small;">A</p>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center upper-hover" style="gap: 10px;">
+                                            <div class="text-light rounded-circle p-2 bg-secondary">AA</div>
+                                            <div class="ml-2">
+                                                <div class="m-0 font-weight-600 grouped-list-title cap-text">Agnes Angle
+                                                </div>
+                                                <small>Last Updated Sep 23, 2024</small>
+                                            </div>
+                                            <button class="btn btn-md ml-auto only-hover"
+                                                style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="pt-1 pe-1 pb-1 ps-1">
+                                        <p style="font-weight: bold;font-size: small;" id="B">B</p>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center upper-hover" style="gap: 10px;">
+                                            <div class="text-light rounded-circle p-2 bg-secondary">BA</div>
+                                            <div class="ml-2">
+                                                <div class="m-0 font-weight-600 grouped-list-title cap-text">Bgnes Angle
+                                                </div>
+                                                <small>Last Updated Sep 23, 2024</small>
+                                            </div>
+                                            <button class="btn btn-md ml-auto only-hover"
+                                                style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="pt-1 pe-1 pb-1 ps-1">
+                                        <p style="font-weight: bold;font-size: small;" id="C">C</p>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center upper-hover" style="gap: 10px;">
+                                            <div class="text-light rounded-circle p-2 bg-secondary">CA</div>
+                                            <div class="ml-2">
+                                                <div class="m-0 font-weight-600 grouped-list-title cap-text">Cgnes Angle
+                                                </div>
+                                                <small>Last Updated Sep 23, 2024</small>
+                                            </div>
+                                            <button class="btn btn-md ml-auto only-hover"
+                                                style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="pt-1 pe-1 pb-1 ps-1">
+                                        <p style="font-weight: bold;font-size: small;" id="D">D</p>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center upper-hover" style="gap: 10px;">
+                                            <div class="text-light rounded-circle p-2 bg-secondary">DA</div>
+                                            <div class="ml-2">
+                                                <div class="m-0 font-weight-600 grouped-list-title cap-text">Dgnes Angle
+                                                </div>
+                                                <small>Last Updated Sep 23, 2024</small>
+                                            </div>
+                                            <button class="btn btn-md ml-auto only-hover"
+                                                style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="pt-1 pe-1 pb-1 ps-1">
+                                        <p style="font-weight: bold;font-size: small;" id="G">G</p>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center upper-hover" style="gap: 10px;">
+                                            <div class="text-light rounded-circle p-2 bg-secondary">GA</div>
+                                            <div class="ml-2">
+                                                <div class="m-0 font-weight-600 grouped-list-title cap-text">Ggnes Angle
+                                                </div>
+                                                <small>Last Updated Sep 23, 2024</small>
+                                            </div>
+                                            <button class="btn btn-md ml-auto only-hover"
+                                                style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="pt-1 pe-1 pb-1 ps-1">
+                                        <p style="font-weight: bold;font-size: small;" id="L">L</p>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center upper-hover" style="gap: 10px;">
+                                            <div class="text-light rounded-circle p-2 bg-secondary">LA</div>
+                                            <div class="ml-2">
+                                                <div class="m-0 font-weight-600 grouped-list-title cap-text">Lgnes Angle
+                                                </div>
+                                                <small>Last Updated Sep 23, 2024</small>
+                                            </div>
+                                            <button class="btn btn-md ml-auto only-hover"
+                                                style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="pt-1 pe-1 pb-1 ps-1">
+                                        <p style="font-weight: bold;font-size: small;" id="Z">Z</p>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex align-items-center upper-hover" style="gap: 10px;">
+                                            <div class="text-light rounded-circle p-2 bg-secondary">ZZ</div>
+                                            <div class="ml-2">
+                                                <div class="m-0 font-weight-600 grouped-list-title cap-text ">Zgnes
+                                                    Angle
+                                                </div>
+                                                <small>Last Updated Sep 23, 2024</small>
+                                            </div>
+                                            <button class="btn btn-md ml-auto only-hover"
+                                                style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            </button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="right: 0; top: 0; width: 50px; background-color: white;">
+                                <ul>
+                                    <li class="list-li"><a href="#A">A</a></li>
+                                    <li class="list-li"><a href="#B">B</a></li>
+                                    <li class="list-li"><a href="#C">C</a></li>
+                                    <li class="list-li"><a href="#D">D</a></li>
+                                    <li class="list-li"><a href="#E">E</a></li>
+                                    <li class="list-li"><a href="#F">F</a></li>
+                                    <li class="list-li"><a href="#G">G</a></li>
+                                    <li class="list-li"><a href="#H">H</a></li>
+                                    <li class="list-li"><a href="#I">I</a></li>
+                                    <li class="list-li"><a href="#J">J</a></li>
+                                    <li class="list-li"><a href="#K">K</a></li>
+                                    <li class="list-li"><a href="#L">L</a></li>
+                                    <li class="list-li"><a href="#M">M</a></li>
+                                    <li class="list-li"><a href="#N">N</a></li>
+                                    <li class="list-li"><a href="#O">O</a></li>
+                                    <li class="list-li"><a href="#P">P</a></li>
+                                    <li class="list-li"><a href="#Q">Q</a></li>
+                                    <li class="list-li"><a href="#R">R</a></li>
+                                    <li class="list-li"><a href="#S">S</a></li>
+                                    <li class="list-li"><a href="#T">T</a></li>
+                                    <li class="list-li"><a href="#U">U</a></li>
+                                    <li class="list-li"><a href="#V">V</a></li>
+                                    <li class="list-li"><a href="#W">W</a></li>
+                                    <li class="list-li"><a href="#X">X</a></li>
+                                    <li class="list-li"><a href="#Y">Y</a></li>
+                                    <li class="list-li"><a href="#Z">Z</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 m-3 wrapper col-11 col-sm-12 col-md-11 col-lg-7 col-xl-7"
+                    style="padding: 10px 0px 0px 10px; background-color:white; box-shadow: 1px 1px 9px #6c7476; border-radius:10px">
+                    <div class="header px-4">
+                        <div class="d-flex justify-content-between p-2">
+                            <h5><b>MANAGE INVITES (8)</b></h5>
+                            <button class="btn btn-sm"
+                                style="background-color: #29405B; color: white; border-radius: 30px;">SEND NEW
+                            </button>
+                        </div>
+                        <div class="text-div mb-3">Here you can review all candidates you have invited and the
+                            status of those invites. You can also send invites to new potential candidates. When a
+                            candidate has accepted their invite, they will appear in the All Candidates list. Click
+                            on an invite below.</div>
+                        <div class="input-div w-100">
+                            <input class="w-100 border text-start" type="text"
+                                placeholder="Search through invited candidates">
+                        </div>
+                        <div class="dropdown pt-3 pb-3">
+                            <span class=" d-flex justify-content-between align-items-baseline all-div pt-1" type=""
+                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                ALL
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </span>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#">ALL</a></li>
+                                <li><a class="dropdown-item" href="#">Available for Work</a></li>
+                                <li><a class="dropdown-item" href="#">Recently Updated</a></li>
+                                <li><a class="dropdown-item" href="#">New Candidates</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="body-content text-start pe-0 py-0">
+
+                        <table class="table pe-3">
+                            <thead>
+                                <th class="text-left pl-2 font-weight-600 pt-0 bg-white">Status:</th>
+                                <th class="text-left pl-2 font-weight-600 pt-0 bg-white">Candidate Email:</th>
+                                <th class="text-left pl-2 font-weight-600 pt-0 bg-white">Invite Sent On:</th>
+                                <th class="text-left pl-2 font-weight-600 pt-0 bg-white">Invite Sent By:</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> <span class="text-danger fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            PROFILE
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-warning fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-primary fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            PROFILE
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-success fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            PROFILE
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-success fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-success fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-info fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            PROFILE
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-danger fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            PROFILE
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-success fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            PROFILE
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-success fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            PROFILE
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-success fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                        </button></td>
+                                </tr>
+                                <tr>
+                                    <td> <span class="text-success fs-6">Accepted on Feb 10, 2023</span></td>
+                                    <td class="fs-6">certn-candidate58@labour.ly</td>
+                                    <td class="fs-6">Jul 10, 2024</td>
+                                    <td class="fs-6">CERTN1 Tenant02 </td>
+                                    <td class="fs-6 upper-hover"> <button class="btn btn-md ml-auto only-hover"
+                                            style="background-color: #29405B; color: white; font-size: xx-small; border-radius: 30px;">VIEW
+                                            PROFILE
+                                        </button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- <footer class="footer">
+      <p>Footer Section</p>
+    </footer> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
